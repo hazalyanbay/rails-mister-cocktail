@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Cocktails</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="1"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cocktails.each do |cocktail| %>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cocktail', new_cocktail_path %>
